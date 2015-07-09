@@ -1,0 +1,34 @@
+{
+	"name": "appmake/yii2-minify-view",
+	"description": "Yii2 View component with minification css & js",
+	"keywords": [
+		"yii2",
+		"minify",
+		"view",
+		"js",
+		"css"
+	],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"minimum-stability": "stable",
+	"support": {
+		"issues": "https://github.com/appmake/yii2-minify-view/issues?state=open",
+		"wiki": "https://github.com/appmake/yii2-minify-view/wiki",
+		"source": "https://github.com/appmake/yii2-minify-view"
+	},
+	"authors": [
+		{
+			"name": "Safronov Sergey",
+			"email": "safronov.ser@icloud.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "2.0.*",
+		"mrclay/minify": "2.2.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"appmake\\yii2\\minify\\": ""
+		}
+	}
+}
